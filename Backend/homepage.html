@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Buys</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css"/>
+    
+</head>
+<body id="show-body">
+    <div class="top-bar-main">
+        <div class="top-bar-image">
+            <a href="homepage.js"><img class = "top-bar-logo" src = "../assets/Your paragraph text.png"></a>
+        </div>
+        <div class="top-bar-options">
+            <div class="top-bar-options-type">NEW ARRIVALS</div>
+            <div class="top-bar-options-type">CASES & SLEEVES</div>
+            <div class="top-bar-options-type">ACCESSORIES</div>
+            <div class="top-bar-options-type">SALE</div>
+            <div class="top-bar-options-type">BAGS & WALLETS</div>
+            <div class="top-bar-options-type">HOME OFFICE</div>
+            <!-- <div class="top-bar-options-type">COLLECTIONS</div> -->
+            <!-- <div class="top-bar-options-type">GIFTING</div> -->
+        </div>
+        <div class="top-bar-icons">
+            <div class="top-bar-icons-type">
+                <i class="fa fa-shopping-bag"></i>
+            </div>
+            <div class="top-bar-icons-type" id="logged-user">
+                <a href="index.html"  style="text-decoration: none;"><i class="fa fa-user"></i></a>
+            </div>
+            <div class="top-bar-icons-type">
+              <h5 id="logout" style="cursor:pointer">Logout!</h5>
+            </div>
+        </div>
+    </div>
+    <a href="offers.html"><div class="poster-1">
+      <img src="https://images.dailyobjects.com/marche/assets/images/other/republicsale-home-page-desktop.png?tr=cm-pad_resize,v-2,w-1519,dpr-1"/>
+    </div></a>
+    <div class="poster-2">
+        <a href="backpacks.html"><img src="https://images.dailyobjects.com/marche/assets/images/other/backpack-desktops.jpg?tr=cm-pad_crop,v-2,w-1519,dpr-1"/></a>
+    </div>
+    <div class="slider-1">
+        <div class="slider-1-child-1">
+            <h2><b>SHOP BY CATEGORIES</b></h2>
+            <h4>Now browse our selection of carefully curated products in sorted categories.</h4>
+        </div>
+        <div id="container">
+          <div id="slider-container">
+            <span onclick="slideRight()" class="btn"></span>
+              <div id="slider">
+            </div>
+            <span onclick="slideLeft()" class="btn"></span>
+          </div>
+        </div>
+    </div>
+    <div class="poster-3">
+        <img src="https://images.dailyobjects.com/marche/assets/images/other/watchbands-desktops.jpg?tr=cm-pad_crop,v-2,w-1519,dpr-1"/>
+    </div>
+    <div class="studio-collections">
+        <div class="studio-collections-1">
+            <h2><b>STUDIO COLLECTIONS</b></h2>
+        </div>
+        <div class="studio-collections-2">
+            <div class="studio-collections-child-1">
+                <div class="studio-collections-image">
+                    <img src="https://images.dailyobjects.com/marche/assets/images/other/dremscape-banner-mob-02.jpg?tr=cm-pad_crop,v-2,w-475,dpr-1"/>
+                </div>
+                <div class="studio-collections-text">
+                    <h3><b>DREAMSCAPE</b></h3>
+                    <h5>A vivid dream journal that lets you carry your daydreaming stance into real life.</h5>
+                    <p><b>Shop Now</b></p>
+                </div>
+            </div>
+            <div class="studio-collections-child-1">
+                <div class="studio-collections-image">
+                    <img src="https://images.dailyobjects.com/marche/assets/images/other/zodiac-collections.jpg?tr=cm-pad_crop,v-2,w-475,dpr-1"/>
+                </div>
+                <div class="studio-collections-text">
+                    <h3><b>ZODIAC</b></h3>
+                    <h5>Zodiac Collection reflects the unique personality of every individual out there!</h5>
+                    <p><b>Shop Now</b></p>
+                </div>
+            </div>
+            <div class="studio-collections-child-1">
+                <div class="studio-collections-image">
+                    <img src="https://images.dailyobjects.com/marche/assets/images/other/pixel-banner-4-02.jpg?tr=cm-pad_crop,v-2,w-475,dpr-1"/>
+                </div>
+                <div class="studio-collections-text">
+                    <h3><b>PIXEL</b></h3>
+                    <h5>A reflection of modern pop-culture, this collection has a vintage appeal that evokes nostalgia.</h5>
+                    <p><b>Shop Now</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="poster-3">
+        <img src="https://images.dailyobjects.com/marche/assets/images/other/messenger-bags-desktops.jpg?tr=cm-pad_crop,v-2,w-1519,dpr-1"/>
+    </div>
+    <div class="slider-1">
+        <div class="slider-1-child-1">
+            <h2><b>NEW ARRIVALS</b></h2>
+            <h4>Check out our newest launches.</h4>
+        </div>
+        <div class="slider-1-child-1"></div>
+       
+    </div>
+    <div class="solutions-essentials">
+        <div class="solutions-essentials-div">
+           <img src = "https://images.dailyobjects.com/marche/assets/images/other/charging-ssolution.jpg?tr=cm-pad_crop,v-2,w-704,dpr-1"/>
+           <h3><b>CHARGING SOLUTIONS</b></h3>
+           <p>Shop Now</p>
+        </div>
+        <div class="solutions-essentials-div">
+            <img src = "https://images.dailyobjects.com/marche/assets/images/other/work-eessentials.jpg?tr=cm-pad_crop,v-2,w-704,dpr-1"/>
+            <h3><b>WORK ESSENTIALS</b></h3>
+            <p>Shop Now</p>
+         </div>
+    </div>
+    <div class="studio-collections">
+        <div class="studio-collections-1">
+            <h2><b>COLLECTIONS</b></h2>
+        </div>
+        <div class="studio-collections-2">
+            <div class="studio-collections-child-1">
+                <div class="studio-collections-image">
+                    <img src="https://images.dailyobjects.com/marche/assets/images/other/collection-08-01.jpg?tr=cm-pad_crop,v-2,w-475,dpr-1"/>
+                </div>
+                <div class="studio-collections-text">
+                    <h3><b>08:01 COLLECTION</b></h3>
+                    <h5>Features a range of chroniclers that let you preserve all brief encounters on your journey.</h5>
+                    <p><b>Shop Now</b></p>
+                </div>
+            </div>
+            <div class="studio-collections-child-1">
+                <div class="studio-collections-image">
+                    <img src="https://images.dailyobjects.com/marche/assets/images/other/zootopia-Web.jpg?tr=cm-pad_crop,v-2,w-475,dpr-1"/>
+                </div>
+                <div class="studio-collections-text">
+                    <h3><b>DAILYOBJECTS X SMARTSTERS</b></h3>
+                    <h5>A playful and functional range of indoor desk and storage solutions for children.</h5>
+                    <p><b>Shop Now</b></p>
+                </div>
+            </div>
+            <div class="studio-collections-child-1">
+                <div class="studio-collections-image">
+                    <img src="https://images.dailyobjects.com/marche/assets/images/other/collection-tarp.jpg?tr=cm-pad_crop,v-2,w-475,dpr-1"/>
+                </div>
+                <div class="studio-collections-text">
+                    <h3><b>TARP COLLECTION</b></h3>
+                    <h5>Urban-inspired carriers, made for free-spirited and powerful wearers.</h5>
+                    <p><b>Shop Now</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="poster-4">
+        <img src="https://images.dailyobjects.com/marche/assets/images/other/organisers-desktops.jpg?tr=cm-pad_crop,v-2,w-1519,dpr-1"/>
+    </div>
+    <div class="poster-5">
+        <img src="https://images.dailyobjects.com/marche/assets/images/other/corporate-gifting-desktops.jpg?tr=cm-pad_crop,v-2,w-1519,dpr-1"/>
+    </div>
+    <div class="solutions-essentials">
+        <div class="solutions-essentials-div">
+           <h1><b>OUR STORY</b></h1>
+           <p>Founded in 2012, DailyObjects is a design-obsessed lifestyle accessories brand committed to making your 
+            everyday carry #lessordinary. You can look forward to a carefully-crafted range of products, 
+            made from long-lasting materials, with designs that stand out and make your life easy. With DailyObjects, 
+            let your lifestyle reflect your sensibilities as you go on to make your every day #lessordinary.</p>
+            <h5><b>Read More</b></h5>
+        </div>
+        <div class="solutions-essentials-div">
+            <img src = "https://images.dailyobjects.com/marche/assets/images/other/Our-Story-updated01.jpg?tr=cm-pad_crop,v-2,w-958,dpr-1"/>
+         </div>
+    </div>
+
+   
+    
+    <div class="poster-6">
+        <img src="../assets/Featured.png"/>
+    </div>
+    <br/><br/>
+
+   
+<!-- Wrap the slider in div with overflow hidden to hide scrollbars -->
+<div class="overflow-hidden">
+
+  <!-- The slider itself is a flex grid -->
+  <div class="flex -mx-4 img-ticker">
+
+    <!-- Original set of images -->
+    <!-- Each image is a grid column with width 16rem (w-64) and horiztonal margin 1rem (mx-4) -->
+    <img class="w-64 mx-4 self-start flex-none" src="https://images.dailyobjects.com/marche/assets/images/other/artboard-4.jpg?tr=cm-pad_crop,v-2,w-353,dpr-2,q-60">
+    <img class="w-64 mx-4 self-start flex-none" src="https://images.dailyobjects.com/marche/assets/images/other/artboard-5.jpg?tr=cm-pad_crop,v-2,w-353,dpr-2,q-60">
+    <img class="w-64 mx-4 self-start flex-none" src="https://images.dailyobjects.com/marche/assets/images/other/artboard-7.jpg?tr=cm-pad_crop,v-2,w-353,dpr-2,q-60">
+    <img class="w-64 mx-4 self-start flex-none" src="https://images.dailyobjects.com/marche/assets/images/other/artboard-8.jpg?tr=cm-pad_crop,v-2,w-353,dpr-2,q-60">
+    <img class="w-64 mx-4 self-start flex-none" src="https://images.dailyobjects.com/marche/assets/images/other/artboard-10.jpg?tr=cm-pad_crop,v-2,w-353,dpr-2,q-60">
+    <img class="w-64 mx-4 self-start flex-none" src="https://images.dailyobjects.com/marche/assets/images/other/artboard-12.jpg?tr=cm-pad_crop,v-2,w-353,dpr-2,q-60">
+
+    <!-- Copy set of images -->
+    <img class="w-64 mx-4 self-start flex-none" src="https://images.dailyobjects.com/marche/assets/images/other/artboard-4.jpg?tr=cm-pad_crop,v-2,w-353,dpr-2,q-60">
+    <img class="w-64 mx-4 self-start flex-none" src="https://images.dailyobjects.com/marche/assets/images/other/artboard-5.jpg?tr=cm-pad_crop,v-2,w-353,dpr-2,q-60">
+    <img class="w-64 mx-4 self-start flex-none" src="https://images.dailyobjects.com/marche/assets/images/other/artboard-7.jpg?tr=cm-pad_crop,v-2,w-353,dpr-2,q-60">
+    <img class="w-64 mx-4 self-start flex-none" src="https://images.dailyobjects.com/marche/assets/images/other/artboard-8.jpg?tr=cm-pad_crop,v-2,w-353,dpr-2,q-60">
+    <img class="w-64 mx-4 self-start flex-none" src="https://images.dailyobjects.com/marche/assets/images/other/artboard-10.jpg?tr=cm-pad_crop,v-2,w-353,dpr-2,q-60">
+    <img class="w-64 mx-4 self-start flex-none" src="https://images.dailyobjects.com/marche/assets/images/other/artboard-12.jpg?tr=cm-pad_crop,v-2,w-353,dpr-2,q-60">
+    
+  </div>
+</div>
+
+    <footer>
+        <div class="container">
+          <div class="content">
+            <div class="col">
+              <p>Contact Us</p>
+              <p>
+                We are always open for cooperation and suggestions, <br />
+                contact us in one of the ways below:
+              </p>
+              <div class="flex">
+                <div class="col-info">
+                  <p>
+                    Contact Number <br />
+                    <span>+91-9090909090</span>
+                  </p>
+                  <p>
+                    Our Location <br />
+                    <span>Bangalore, India</span>
+                  </p>
+                </div>
+                <div class="col-info">
+                  <p>
+                    Email Address <br />
+                    <span>buy@betterbuys.com</span>
+                  </p>
+                  <p>
+                    Working Hours <br />
+                    <span>Mon-Sat 10:00pm - 7:00pm</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="column">
+                <p>Information</p>
+                <p>About us</p>
+                <p>Delivery Information</p>
+                <p>Privacy Policy</p>
+                <p>Brands</p>
+                <p>Contact Us</p>
+                <p>Returns</p>
+                <p>Site Map</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="column">
+                <p>My Account</p>
+                <p>Store Location</p>
+                <p>Order History</p>
+                <p>Wish List</p>
+                <p>Newsletter</p>
+                <p>Special Offers</p>
+                <p>Gift Certificates</p>
+                <p>Affiliate</p>
+              </div>
+            </div>
+            <div class="col">
+              <p>Newsletter</p>
+              <p>
+                Enter your email address below to subscribe to our newsletter<br />
+                and keep up to date with discounts and special offers.
+              </p>
+              <div class="email">
+                <input type="email" placeholder="user@example.com" />
+                <button>Subscribe</button>
+              </div>
+              <p>Follow us on Social Networks:</p>
+              <div class="social">
+                <img src="https://i.postimg.cc/44pPB9wk/facebook.png" alt="" />
+                <img src="https://i.postimg.cc/L8Q3nB4f/twitter.png" alt="" />
+                <img src="https://i.postimg.cc/TYG9S3Hy/instagram.png" alt="" />
+                <img src="https://i.postimg.cc/kGCxkTwr/youtube.png" alt="" />
+                <img src="https://i.postimg.cc/CKZHDBd2/telegram.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-foot">
+          <div class="container">
+            <div class="foot-text">
+              <p>Powered by<span> <span>Better Buys</span></span></p>
+              <div class="pay">
+                <img src="https://i.postimg.cc/PrtWyFPY/visa-logo-png-2013.png" alt="" />
+                <img src="https://i.postimg.cc/R0j1TSHZ/mastercard-PNG23.png" alt="" />
+                <img src="https://i.postimg.cc/sggJj0zs/paypal-logo-png-2119.png" alt="" />
+                <img src="https://i.postimg.cc/hjdsFzBm/American-Express-logo-PNG14.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+ 
+</body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="homepage.js"></script>
+<script src="slider.js"></script>
+<script src="main.js"></script>
+<script src="slideshow.js"></script>
+
