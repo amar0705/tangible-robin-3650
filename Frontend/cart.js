@@ -57,7 +57,7 @@ const displayCart = (products) => {
       productsElement.append(outerDiv);
     });
     footerElement.innerHTML = `<div>Final Amount: Rs. ${totalPrice}</div>
-    <div><button onclick="handleCheckout()">Checkout</button></div>`;
+    <div><b><button onclick="handleCheckout()">Checkout</button></b></div>`;
   } else {
     productsElement.innerHTML = `<h2>No Items in the cart</h2>`;
   }

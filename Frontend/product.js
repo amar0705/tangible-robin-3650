@@ -33,7 +33,7 @@ const createCartDisplay = () => {
           <li class="size">m</li>
           <li class="size">l</li>
         </ul>
-        <button class="cart" onclick="addToCart()">Add To Cart</button>
+        <button class="cart" onclick="addToCart()"><b>Add To Cart</b></button>
         <p class="description">
           ${product?.description}
         </p>

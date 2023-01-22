@@ -2,11 +2,11 @@
 @import "https://unpkg.com/swiper/swiper-bundle.min.css";
 
 .container-cart {
-  width: 100%;
   box-shadow: 5px 5px 15px rgba(black, 0.5);
   width: min(1000px, 80%);
   display: flex;
   padding: clamp(0.63rem, calc(-0.18rem + 4.29vw), 4.38rem);
+  width: 100%;
 }
 
 .swiper {
@@ -86,10 +86,10 @@ h2 {
 
 .cart {
   font-family: "Alegreya Sans", sans-serif;
-  background-color: #5e626c;
+  background-color: #5c864a;
   color: #fff;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 17px;
   border: 1px solid #5e626c;
   border-radius: 5px;
   padding: 0.5rem 1.3rem;
