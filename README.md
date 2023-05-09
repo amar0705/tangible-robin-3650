@@ -43,3 +43,8 @@
 <img src="https://github.com/amar0705/tangible-robin-3650/blob/main/assets/Bagpacks.png">
 </p>
 
+<h2 align = "center" > Individual Products Page </h2></br>
+<p align="center">
+<img src="https://github.com/amar0705/tangible-robin-3650/blob/main/assets/individual.png">
+</p>
+
