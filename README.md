@@ -27,3 +27,19 @@
 <p align="center">
 <img src="https://github.com/amar0705/tangible-robin-3650/blob/main/assets/Homepage-5.png">
 </p>
+
+
+<h2 align = "center" > Login / Signup Page </h2></br>
+<p align="center">
+<img src="https://github.com/amar0705/tangible-robin-3650/blob/main/assets/login.png">
+</p>
+<p align="center">
+<img src="https://github.com/amar0705/tangible-robin-3650/blob/main/assets/signup.png">
+</p>
+
+
+<h2 align = "center" > Bagpacks Page </h2></br>
+<p align="center">
+<img src="https://github.com/amar0705/tangible-robin-3650/blob/main/assets/Bagpacks.png">
+</p>
+
